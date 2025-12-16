@@ -1,0 +1,1 @@
+{"name":"Local: 301","url":"d:\\code\\算法提高课\\动态规划\\斜率优化DP\\301. 任务安排2.cpp","tests":[{"id":1765854583631,"input":"5\n1\n1 3\n3 2\n4 3\n2 3\n1 4","output":"153"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\code\\算法提高课\\动态规划\\斜率优化DP\\301. 任务安排2.cpp","group":"local","local":true}

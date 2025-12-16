@@ -1,0 +1,1 @@
+{"name":"Local: test","url":"d:\\code\\test.c","tests":[{"id":1765509694291,"input":"","output":"The average of array is 1.450000\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\code\\test.c","group":"local","local":true}

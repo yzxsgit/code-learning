@@ -1,0 +1,1 @@
+{"name":"Local: B","url":"d:\\code\\ccf-csp\\CSP202506\\B. 机器人复健指南.cpp","tests":[{"id":1764902908089,"input":"4 1\n1 1\n","output":"3"},{"id":1764902962635,"input":"4 2\n1 1\n","output":"8"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\code\\ccf-csp\\CSP202506\\B. 机器人复健指南.cpp","group":"local","local":true}

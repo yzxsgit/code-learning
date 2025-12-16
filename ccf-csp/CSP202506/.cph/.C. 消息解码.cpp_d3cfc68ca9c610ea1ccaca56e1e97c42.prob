@@ -1,0 +1,1 @@
+{"name":"Local: C","url":"d:\\code\\ccf-csp\\CSP202506\\C. 消息解码.cpp","tests":[{"id":1764906587970,"input":"1\n100111111001001101000001000100101001010001000000011011110000011100011010\n","output":"71101055775146872"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\code\\ccf-csp\\CSP202506\\C. 消息解码.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: 479","url":"d:\\code\\算法提高课\\动态规划\\区间DP\\479. 加分二叉树.cpp","tests":[{"id":1764139368625,"input":"5\n5 7 1 2 10","output":"145\n3 1 2 4 5"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\code\\算法提高课\\动态规划\\区间DP\\479. 加分二叉树.cpp","group":"local","local":true}

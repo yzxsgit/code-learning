@@ -1,0 +1,1 @@
+{"name":"Local: T - Sushi","url":"d:\\code\\ccf-csp\\第10-11周\\T - Sushi.cpp","tests":[{"id":1764142562993,"input":"10\n1 3 2 3 3 2 3 2 1 3\n","output":"54.48064457488221\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\code\\ccf-csp\\第10-11周\\T - Sushi.cpp","group":"local","local":true}
