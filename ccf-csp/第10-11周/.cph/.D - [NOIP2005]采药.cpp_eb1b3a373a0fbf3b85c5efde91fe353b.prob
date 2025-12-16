@@ -1,0 +1,1 @@
+{"name":"Local: D - [NOIP2005]采药","url":"d:\\code\\ccf-csp\\第10-11周\\D - [NOIP2005]采药.cpp","tests":[{"id":1763347904976,"input":"70 3\n71 100\n69 1\n1 2","output":"3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\code\\ccf-csp\\第10-11周\\D - [NOIP2005]采药.cpp","group":"local","local":true}

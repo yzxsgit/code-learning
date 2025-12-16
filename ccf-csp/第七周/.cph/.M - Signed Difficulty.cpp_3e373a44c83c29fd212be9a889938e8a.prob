@@ -1,0 +1,1 @@
+{"name":"Local: M - Signed Difficulty","url":"d:\\code\\ccf-csp\\第七周\\M - Signed Difficulty.cpp","tests":[{"id":1761293917893,"input":"15.8\n","output":"15+"},{"id":1761293970903,"input":"12.5\n","output":"12"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\code\\ccf-csp\\第七周\\M - Signed Difficulty.cpp","group":"local","local":true}

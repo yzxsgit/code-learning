@@ -1,0 +1,1 @@
+{"name":"Local: A - 逆序对","url":"d:\\新建文件夹\\code\\ccf-csp\\第四周\\A - 逆序对.cpp","tests":[{"id":1759643103058,"input":"6\n5 4 2 6 3 1\n","output":"11"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\新建文件夹\\code\\ccf-csp\\第四周\\A - 逆序对.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: 154","url":"d:\\新建文件夹\\暑假练习\\算法基础课\\数据结构\\题目\\154. 滑动窗口.cpp","tests":[{"id":1755334917980,"input":"8 3\n1 3 -1 -3 5 3 6 7","output":"-1 -3 -3 -3 3 3\n3 3 5 5 6 7"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\新建文件夹\\暑假练习\\算法基础课\\数据结构\\题目\\154. 滑动窗口.cpp","group":"local","local":true}

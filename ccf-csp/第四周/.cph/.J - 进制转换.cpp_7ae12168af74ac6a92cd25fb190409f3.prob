@@ -1,0 +1,1 @@
+{"name":"Local: J - 进制转换","url":"d:\\新建文件夹\\code\\ccf-csp\\第四周\\J - 进制转换.cpp","tests":[{"id":1759668151868,"input":"16\nFF\n2\n","output":"11111111"},{"id":1759668591632,"input":"10\n10\n10","output":"10"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\新建文件夹\\code\\ccf-csp\\第四周\\J - 进制转换.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: 524","url":"d:\\新建文件夹\\code\\算法提高课\\动态规划\\状态压缩DP\\524. 愤怒的小鸟.cpp","tests":[{"id":1763903165257,"input":"2\n2 0\n1.00 3.00\n3.00 3.00\n5 2\n1.00 5.00\n2.00 8.00\n3.00 9.00\n4.00 8.00\n5.00 5.00","output":"1\n1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\新建文件夹\\code\\算法提高课\\动态规划\\状态压缩DP\\524. 愤怒的小鸟.cpp","group":"local","local":true}

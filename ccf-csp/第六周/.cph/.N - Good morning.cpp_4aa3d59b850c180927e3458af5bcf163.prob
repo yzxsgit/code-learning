@@ -1,0 +1,1 @@
+{"name":"Local: N - Good morning","url":"d:\\code\\ccf-csp\\第六周\\N - Good morning.cpp","tests":[{"id":1760693103072,"input":"7 0 6 30\n","output":"Aoki"},{"id":1760693114907,"input":"0 0 23 59\n","output":"Takahashi\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\code\\ccf-csp\\第六周\\N - Good morning.cpp","group":"local","local":true}

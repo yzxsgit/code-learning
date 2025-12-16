@@ -1,0 +1,1 @@
+{"name":"Local: Treasure Chest","url":"d:\\code\\ccf-csp\\Treasure Chest.cpp","tests":[{"id":1758355341544,"input":"10\n.|..*...|.\n","output":"in\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\code\\ccf-csp\\Treasure Chest.cpp","group":"local","local":true}

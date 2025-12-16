@@ -1,0 +1,1 @@
+{"name":"Local: S - Edge Checker","url":"d:\\code\\ccf-csp\\第六周\\S - Edge Checker.cpp","tests":[{"id":1760692222475,"input":"4 5\n","output":"Yes"},{"id":1760692277106,"input":"1 10\n","output":"Yes"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\code\\ccf-csp\\第六周\\S - Edge Checker.cpp","group":"local","local":true}

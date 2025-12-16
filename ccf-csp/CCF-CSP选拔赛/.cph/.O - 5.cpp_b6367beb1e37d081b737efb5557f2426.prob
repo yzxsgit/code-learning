@@ -1,0 +1,1 @@
+{"name":"Local: O - 5","url":"d:\\新建文件夹\\code\\ccf-csp\\CCF-CSP选拔赛\\O - 5.cpp","tests":[{"id":1762582150770,"input":"2\n5 2\n1 2 -2 -3 4\n4 4\n1 1 1 1","output":"7\n4"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\新建文件夹\\code\\ccf-csp\\CCF-CSP选拔赛\\O - 5.cpp","group":"local","local":true}

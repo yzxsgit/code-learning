@@ -1,0 +1,1 @@
+{"name":"Local: H - 矩阵距离","url":"d:\\code\\ccf-csp\\第七周\\H - 矩阵距离.cpp","tests":[{"id":1761273852221,"input":"3 4\n0001\n0011\n0110","output":"3 2 1 0\n2 1 0 0\n1 0 0 1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\code\\ccf-csp\\第七周\\H - 矩阵距离.cpp","group":"local","local":true}

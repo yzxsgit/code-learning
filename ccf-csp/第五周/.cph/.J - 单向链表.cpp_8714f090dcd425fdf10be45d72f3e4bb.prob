@@ -1,0 +1,1 @@
+{"name":"Local: J - 单向链表","url":"d:\\新建文件夹\\code\\ccf-csp\\第五周\\J - 单向链表.cpp","tests":[{"id":1760254149824,"input":"6\n1 1 99\n1 99 50\n1 99 75\n2 99\n3 75\n2 1","output":"75\n99"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\新建文件夹\\code\\ccf-csp\\第五周\\J - 单向链表.cpp","group":"local","local":true}

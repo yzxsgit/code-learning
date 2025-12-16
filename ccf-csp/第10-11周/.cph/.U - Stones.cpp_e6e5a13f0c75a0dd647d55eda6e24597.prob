@@ -1,0 +1,1 @@
+{"name":"Local: U - Stones","url":"d:\\code\\ccf-csp\\第10-11周\\U - Stones.cpp","tests":[{"id":1763695558765,"input":"2 4\n2 3\n","output":"first"},{"id":1763695914818,"input":"2 7\n2 3\n","output":"First"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\code\\ccf-csp\\第10-11周\\U - Stones.cpp","group":"local","local":true}

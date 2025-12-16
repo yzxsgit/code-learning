@@ -1,0 +1,1 @@
+{"name":"Local: 899","url":"d:\\新建文件夹\\code\\算法基础课\\动态规划\\899. 编辑距离.cpp","tests":[{"id":1759371130722,"input":"3 2\nabc\nacd\nbcd\nab 1\nacbd 2","output":"1\n3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\新建文件夹\\code\\算法基础课\\动态规划\\899. 编辑距离.cpp","group":"local","local":true}

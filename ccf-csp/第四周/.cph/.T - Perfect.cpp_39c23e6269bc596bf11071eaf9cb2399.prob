@@ -1,0 +1,1 @@
+{"name":"Local: T - Perfect","url":"d:\\新建文件夹\\code\\ccf-csp\\第四周\\T - Perfect.cpp","tests":[{"id":1759733991704,"input":"3 2 5\n1 1\n3 2\n2 1\n3 1\n1 2\n","output":"3 1\n"},{"id":1759733998219,"input":"2 2 2\n1 1\n2 2\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\新建文件夹\\code\\ccf-csp\\第四周\\T - Perfect.cpp","group":"local","local":true}

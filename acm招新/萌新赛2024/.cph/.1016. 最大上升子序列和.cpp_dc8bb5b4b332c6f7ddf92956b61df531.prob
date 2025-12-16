@@ -1,0 +1,1 @@
+{"name":"Local: 1016","url":"d:\\code\\acm招新\\萌新赛2024\\1016. 最大上升子序列和.cpp","tests":[{"id":1761718785351,"input":"7\n1 7 3 5 9 4 8\n","output":"18"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\code\\acm招新\\萌新赛2024\\1016. 最大上升子序列和.cpp","group":"local","local":true}

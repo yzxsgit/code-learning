@@ -1,0 +1,1 @@
+{"name":"Local: L - 最长连续不重复子序列","url":"d:\\新建文件夹\\code\\ccf-csp\\第三周\\L - 最长连续不重复子序列.cpp","tests":[{"id":1759566374140,"input":"5\n1 2 2 3 5","output":"3"},{"id":1759566402749,"input":"6\n1 2 3 4 5 6","output":"6"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\新建文件夹\\code\\ccf-csp\\第三周\\L - 最长连续不重复子序列.cpp","group":"local","local":true}

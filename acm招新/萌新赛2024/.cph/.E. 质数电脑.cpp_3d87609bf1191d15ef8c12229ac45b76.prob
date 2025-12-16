@@ -1,0 +1,1 @@
+{"name":"Local: E","url":"d:\\code\\acm招新\\萌新赛2024\\E. 质数电脑.cpp","tests":[{"id":1761619184202,"input":"2\n3\n4 6 8\n3\n114514 1919810 229028","output":"Yes\nYes"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\code\\acm招新\\萌新赛2024\\E. 质数电脑.cpp","group":"local","local":true}

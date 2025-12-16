@@ -1,0 +1,1 @@
+{"name":"Local: 1020","url":"d:\\code\\算法提高课\\动态规划\\背包问题\\1020. 潜水员.cpp","tests":[{"id":1762931665931,"input":"5 60\n5\n3 36 120\n10 25 129\n5 50 250\n1 45 130\n4 20 119","output":"249"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\code\\算法提高课\\动态规划\\背包问题\\1020. 潜水员.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: 96","url":"d:\\code\\算法竞赛指南\\0x00 基本算法\\96. 奇怪的汉诺塔.cpp","tests":[{"id":1760583811733,"input":"","output":"1\r\n3\r\n5\r\n9\r\n13\r\n17\r\n25\r\n33\r\n41\r\n49\r\n65\r\n81\r\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\code\\算法竞赛指南\\0x00 基本算法\\96. 奇怪的汉诺塔.cpp","group":"local","local":true}

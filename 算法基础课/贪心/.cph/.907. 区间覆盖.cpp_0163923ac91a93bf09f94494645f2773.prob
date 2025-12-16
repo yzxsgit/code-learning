@@ -1,0 +1,1 @@
+{"name":"Local: 907","url":"d:\\新建文件夹\\code\\算法基础课\\贪心\\907. 区间覆盖.cpp","tests":[{"id":1760106912809,"input":"1 5\n3\n-1 3\n2 4\n3 5","output":"2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\新建文件夹\\code\\算法基础课\\贪心\\907. 区间覆盖.cpp","group":"local","local":true}

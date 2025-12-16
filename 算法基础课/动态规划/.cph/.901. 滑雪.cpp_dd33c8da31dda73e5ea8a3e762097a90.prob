@@ -1,0 +1,1 @@
+{"name":"Local: 901","url":"d:\\新建文件夹\\code\\算法基础课\\动态规划\\901. 滑雪.cpp","tests":[{"id":1759460368420,"input":"5 5\n1 2 3 4 5\n16 17 18 19 6\n15 24 25 20 7\n14 23 22 21 8\n13 12 11 10 9","output":"25"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\新建文件夹\\code\\算法基础课\\动态规划\\901. 滑雪.cpp","group":"local","local":true}

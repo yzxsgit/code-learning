@@ -1,0 +1,1 @@
+{"name":"Local: R - 8","url":"d:\\新建文件夹\\code\\ccf-csp\\CCF-CSP选拔赛\\R - 8.cpp","tests":[{"id":1762597311701,"input":"2\n5\n1 3 4 5 2\n4\n1 2 3 4","output":"7\r\n0\r\n"},{"id":1762597359011,"input":"1\n5\n2 4 3 5 1","output":"7"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\新建文件夹\\code\\ccf-csp\\CCF-CSP选拔赛\\R - 8.cpp","group":"local","local":true}

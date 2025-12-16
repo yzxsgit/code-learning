@@ -1,0 +1,1 @@
+{"name":"Local: 841","url":"d:\\code\\暑假练习\\算法基础课\\数据结构\\题目\\841. 字符串哈希.cpp","tests":[{"id":1756640426323,"input":"8 3\naabbaabb\n1 3 5 7\n1 3 6 8\n1 2 1 2","output":"Yes\nNo\nYes"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\code\\暑假练习\\算法基础课\\数据结构\\题目\\841. 字符串哈希.cpp","group":"local","local":true}

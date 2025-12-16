@@ -1,0 +1,1 @@
+{"name":"Local: 10","url":"d:\\code\\算法提高课\\动态规划\\背包问题\\10. 有依赖的背包问题.cpp","tests":[{"id":1763123509986,"input":"5 7\n2 3 -1\n2 2 1\n3 5 1\n4 7 2\n3 6 2","output":"11"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\code\\算法提高课\\动态规划\\背包问题\\10. 有依赖的背包问题.cpp","group":"local","local":true}

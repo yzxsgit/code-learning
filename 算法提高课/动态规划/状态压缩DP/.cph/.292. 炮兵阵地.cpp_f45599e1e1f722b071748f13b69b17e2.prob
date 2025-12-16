@@ -1,0 +1,1 @@
+{"name":"Local: 292","url":"d:\\code\\算法提高课\\动态规划\\状态压缩DP\\292. 炮兵阵地.cpp","tests":[{"id":1763726850250,"input":"5 4\nPHPP\nPPHH\nPPPP\nPHPP\nPHHP","output":"6"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\code\\算法提高课\\动态规划\\状态压缩DP\\292. 炮兵阵地.cpp","group":"local","local":true}

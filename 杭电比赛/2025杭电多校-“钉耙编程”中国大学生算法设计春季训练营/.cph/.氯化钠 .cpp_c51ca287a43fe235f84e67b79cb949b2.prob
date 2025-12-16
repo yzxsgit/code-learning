@@ -1,0 +1,1 @@
+{"name":"Local: 氯化钠 ","url":"d:\\code\\杭电比赛\\2025杭电多校-“钉耙编程”中国大学生算法设计春季训练营\\氯化钠 .cpp","tests":[{"id":1761014218352,"input":"2\n5 3\n1 2 3 3 4\n10 10\n9 6 7 5 5 4 7 2 5 8 ","output":"7\n13"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\code\\杭电比赛\\2025杭电多校-“钉耙编程”中国大学生算法设计春季训练营\\氯化钠 .cpp","group":"local","local":true}

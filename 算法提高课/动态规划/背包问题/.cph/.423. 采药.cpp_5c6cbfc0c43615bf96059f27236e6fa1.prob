@@ -1,0 +1,1 @@
+{"name":"Local: 423","url":"d:\\code\\算法提高课\\动态规划\\背包问题\\423. 采药.cpp","tests":[{"id":1762505420114,"input":"70 3\n71 100\n69 1\n1 2","output":"3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\code\\算法提高课\\动态规划\\背包问题\\423. 采药.cpp","group":"local","local":true}

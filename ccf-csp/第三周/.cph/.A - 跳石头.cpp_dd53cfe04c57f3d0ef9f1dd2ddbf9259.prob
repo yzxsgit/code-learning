@@ -1,0 +1,1 @@
+{"name":"Local: A - 跳石头","url":"d:\\code\\ccf-csp\\第三周\\A - 跳石头.cpp","tests":[{"id":1758897419453,"input":"25 5 2 \n2\n11\n14\n17 \n21","output":"4"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\code\\ccf-csp\\第三周\\A - 跳石头.cpp","group":"local","local":true}

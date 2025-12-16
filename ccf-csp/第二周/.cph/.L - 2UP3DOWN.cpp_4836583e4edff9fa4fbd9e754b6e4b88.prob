@@ -1,0 +1,1 @@
+{"name":"Local: L - 2UP3DOWN","url":"d:\\code\\ccf-csp\\第二周\\L - 2UP3DOWN.cpp","tests":[{"id":1758515177520,"input":"1 4\n","output":"No"},{"id":1758515184631,"input":"99 96\n","output":"Yes"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\code\\ccf-csp\\第二周\\L - 2UP3DOWN.cpp","group":"local","local":true}

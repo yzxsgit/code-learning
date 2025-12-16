@@ -1,0 +1,1 @@
+{"name":"Local: E - Glass and Mug","url":"d:\\新建文件夹\\code\\ccf-csp\\第五周\\E - Glass and Mug.cpp","tests":[{"id":1760185724980,"input":"5 300 500\n","output":"200 500"},{"id":1760185731789,"input":"5 100 200\n","output":"0 0"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\新建文件夹\\code\\ccf-csp\\第五周\\E - Glass and Mug.cpp","group":"local","local":true}

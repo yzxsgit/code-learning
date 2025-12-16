@@ -1,0 +1,1 @@
+{"name":"Local: O - 凌波微步","url":"d:\\code\\ccf-csp\\第五周\\O - 凌波微步.cpp","tests":[{"id":1760322141284,"input":"2\n6\n1 2 3 4 5 6\n5\n1 3 5 3 6","output":"6\n4"},{"id":1760322395392,"input":"2\n7\n1 4 2 3 5 6 7\n2\n1 2","output":"7\n2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\code\\ccf-csp\\第五周\\O - 凌波微步.cpp","group":"local","local":true}

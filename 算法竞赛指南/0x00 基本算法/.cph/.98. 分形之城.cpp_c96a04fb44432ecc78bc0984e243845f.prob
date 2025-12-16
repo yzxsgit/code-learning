@@ -1,0 +1,1 @@
+{"name":"Local: 98","url":"d:\\code\\算法竞赛指南\\0x00 基本算法\\98. 分形之城.cpp","tests":[{"id":1760753580983,"input":"3 \n1 1 2 \n2 16 1 \n3 4 33","output":"10 \n30 \n50 "}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\code\\算法竞赛指南\\0x00 基本算法\\98. 分形之城.cpp","group":"local","local":true}

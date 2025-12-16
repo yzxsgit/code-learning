@@ -1,0 +1,1 @@
+{"name":"Local: 866","url":"d:\\code\\暑假练习\\算法基础课\\数学知识\\题目\\866. 试除法判定质数.cpp","tests":[{"id":1757854429598,"input":"2\n2\n6","output":"Yes\r\nNo\r\n"},{"id":1757854519322,"input":"1\n2147483647","output":"Yes\r\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\code\\暑假练习\\算法基础课\\数学知识\\题目\\866. 试除法判定质数.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: 105","url":"d:\\code\\算法竞赛指南\\0x00 基本算法\\105. 七夕祭.cpp","tests":[{"id":1761222465450,"input":"2 3 4\n1 3\n2 1\n2 2\n2 3","output":"row 1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\code\\算法竞赛指南\\0x00 基本算法\\105. 七夕祭.cpp","group":"local","local":true}

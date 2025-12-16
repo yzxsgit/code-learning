@@ -1,0 +1,1 @@
+{"name":"Local: 867","url":"d:\\code\\暑假练习\\算法基础课\\数学知识\\题目\\867. 分解质因数.cpp","tests":[{"id":1757854917059,"input":"2\n6\n8","output":"2 1\n3 1\n\n2 3\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\code\\暑假练习\\算法基础课\\数学知识\\题目\\867. 分解质因数.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: N - 道路铺设","url":"d:\\code\\ccf-csp\\第五周\\N - 道路铺设.cpp","tests":[{"id":1760321098869,"input":"6\n4 3 2 5 3 5","output":"9"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\code\\ccf-csp\\第五周\\N - 道路铺设.cpp","group":"local","local":true}

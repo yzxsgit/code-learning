@@ -1,0 +1,1 @@
+{"name":"Local: N - Clear And Present Danger S","url":"d:\\code\\ccf-csp\\第八周\\N - Clear And Present Danger S.cpp","tests":[{"id":1761903901551,"input":"3 4 \n1 \n2 \n1 \n3 \n0 5 1 \n5 0 2 \n1 2 0 \n","output":"7"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\code\\ccf-csp\\第八周\\N - Clear And Present Danger S.cpp","group":"local","local":true}

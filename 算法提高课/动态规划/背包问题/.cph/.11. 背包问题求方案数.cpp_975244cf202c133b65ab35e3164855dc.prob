@@ -1,0 +1,1 @@
+{"name":"Local: 11","url":"d:\\code\\算法提高课\\动态规划\\背包问题\\11. 背包问题求方案数.cpp","tests":[{"id":1763124043629,"input":"4 5\n1 2\n2 4\n3 4\n4 6","output":"2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\code\\算法提高课\\动态规划\\背包问题\\11. 背包问题求方案数.cpp","group":"local","local":true}

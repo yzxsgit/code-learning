@@ -1,0 +1,1 @@
+{"name":"Local: I - 队列","url":"d:\\新建文件夹\\code\\ccf-csp\\第五周\\I - 队列.cpp","tests":[{"id":1760253382824,"input":"13\n1 2\n3\n4\n1 233\n3\n2\n3\n2\n4\n3\n2\n1 144\n3","output":"2\n1\n2\n233\n0\nERR_CANNOT_QUERY\nERR_CANNOT_POP\n144"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\新建文件夹\\code\\ccf-csp\\第五周\\I - 队列.cpp","group":"local","local":true}

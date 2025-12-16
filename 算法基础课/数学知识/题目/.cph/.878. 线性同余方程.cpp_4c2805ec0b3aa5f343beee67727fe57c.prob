@@ -1,0 +1,1 @@
+{"name":"Local: 878","url":"d:\\code\\暑假练习\\算法基础课\\数学知识\\题目\\878. 线性同余方程.cpp","tests":[{"id":1758030841722,"input":"2\n2 3 6\n4 3 5","output":"impossible\n-3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\code\\暑假练习\\算法基础课\\数学知识\\题目\\878. 线性同余方程.cpp","group":"local","local":true}

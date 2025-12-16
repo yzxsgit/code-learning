@@ -1,0 +1,1 @@
+{"name":"Local: O - Last Letter","url":"d:\\code\\ccf-csp\\第六周\\O - Last Letter.cpp","tests":[{"id":1760673082583,"input":"5\nabcde\n","output":"e"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\code\\ccf-csp\\第六周\\O - Last Letter.cpp","group":"local","local":true}

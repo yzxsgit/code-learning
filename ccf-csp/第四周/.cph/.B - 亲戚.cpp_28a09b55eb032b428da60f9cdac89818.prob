@@ -1,0 +1,1 @@
+{"name":"Local: B - 亲戚","url":"d:\\新建文件夹\\code\\ccf-csp\\第四周\\B - 亲戚.cpp","tests":[{"id":1759644412830,"input":"6 5 3\n1 2\n1 5\n3 4\n5 2\n1 3\n1 4\n2 3\n5 6","output":"Yes\nYes\nNo"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\新建文件夹\\code\\ccf-csp\\第四周\\B - 亲戚.cpp","group":"local","local":true}

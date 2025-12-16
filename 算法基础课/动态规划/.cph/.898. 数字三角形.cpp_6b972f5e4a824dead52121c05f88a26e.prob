@@ -1,0 +1,1 @@
+{"name":"Local: 898","url":"d:\\新建文件夹\\code\\算法基础课\\动态规划\\898. 数字三角形.cpp","tests":[{"id":1759322382507,"input":"5\n7\n3 8\n8 1 0 \n2 7 4 4\n4 5 2 6 5","output":"30"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\新建文件夹\\code\\算法基础课\\动态规划\\898. 数字三角形.cpp","group":"local","local":true}

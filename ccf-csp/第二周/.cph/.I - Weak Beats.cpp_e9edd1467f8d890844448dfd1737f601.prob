@@ -1,0 +1,1 @@
+{"name":"Local: I - Weak Beats","url":"d:\\code\\ccf-csp\\第二周\\I - Weak Beats.cpp","tests":[{"id":1758514528681,"input":"1001000000001010\n","output":"No\n"},{"id":1758514533541,"input":"1010100000101000\n","output":"Yes\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\code\\ccf-csp\\第二周\\I - Weak Beats.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: 3","url":"d:\\code\\暑假练习\\算法基础课\\基础算法\\模板\\3. 完全背包问题.cpp","tests":[{"id":1759216557349,"input":"4 5\n1 2\n2 4\n3 4\n4 5","output":"10"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\code\\暑假练习\\算法基础课\\基础算法\\模板\\3. 完全背包问题.cpp","group":"local","local":true}

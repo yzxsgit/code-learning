@@ -1,0 +1,1 @@
+{"name":"Local: 785","url":"d:\\新建文件夹\\暑假练习\\算法基础课\\基础算法1\\题目\\785. 快速排序.cpp","tests":[{"id":1755174799635,"input":"5\n1 2 2 1 4","output":"1 1 2 2 4"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\新建文件夹\\暑假练习\\算法基础课\\基础算法1\\题目\\785. 快速排序.cpp","group":"local","local":true}

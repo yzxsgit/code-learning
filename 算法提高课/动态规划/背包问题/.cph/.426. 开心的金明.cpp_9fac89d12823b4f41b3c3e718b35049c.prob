@@ -1,0 +1,1 @@
+{"name":"Local: 426","url":"d:\\新建文件夹\\code\\算法提高课\\动态规划\\背包问题\\426. 开心的金明.cpp","tests":[{"id":1763087677361,"input":"1000 5\n800 2\n400 5\n300 5\n400 3\n200 2","output":"3900"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\新建文件夹\\code\\算法提高课\\动态规划\\背包问题\\426. 开心的金明.cpp","group":"local","local":true}

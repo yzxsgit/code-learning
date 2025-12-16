@@ -1,0 +1,1 @@
+{"name":"Local: P - Shampoo","url":"d:\\code\\ccf-csp\\第六周\\P - Shampoo.cpp","tests":[{"id":1760691229320,"input":"25 10 11 12\n","output":"T"},{"id":1760691304008,"input":"100000 1 1 1\n","output":"M"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\code\\ccf-csp\\第六周\\P - Shampoo.cpp","group":"local","local":true}

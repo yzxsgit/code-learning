@@ -1,0 +1,1 @@
+{"name":"Local: 839","url":"d:\\新建文件夹\\暑假练习\\算法基础课\\数据结构\\题目\\839. 模拟堆.cpp","tests":[{"id":1756019845394,"input":"8\nI -10\nPM\nI -10\nD 1\nC 2 8\nI 6\nPM\nDM","output":"-10\n6"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\新建文件夹\\暑假练习\\算法基础课\\数据结构\\题目\\839. 模拟堆.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: R - Digit Machine","url":"d:\\code\\ccf-csp\\第六周\\R - Digit Machine.cpp","tests":[{"id":1760692048061,"input":"9 0 1 2 3 4 5 6 7 8\n","output":"7"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\code\\ccf-csp\\第六周\\R - Digit Machine.cpp","group":"local","local":true}

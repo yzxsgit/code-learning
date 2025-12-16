@@ -1,0 +1,1 @@
+{"name":"Local: P - 小C的记事本","url":"d:\\code\\ccf-csp\\第五周\\P - 小C的记事本.cpp","tests":[{"id":1760323848754,"input":"8\n1 ab\n3 2\n2 2\n1 cd\n3 1\n4\n4\n3 1","output":"b\nc\na"},{"id":1760323876292,"input":"3\n1 ab\n2 1\n3 1","output":"a"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\code\\ccf-csp\\第五周\\P - 小C的记事本.cpp","group":"local","local":true}

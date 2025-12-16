@@ -1,0 +1,1 @@
+{"name":"Local: J - Function","url":"d:\\新建文件夹\\code\\ccf-csp\\第三周\\J - Function.cpp","tests":[{"id":1759556438502,"input":"1 1 1\n2 2 2\n-1 -1 -1","output":"w(1, 1, 1) = 2\nw(2, 2, 2) = 4"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\新建文件夹\\code\\ccf-csp\\第三周\\J - Function.cpp","group":"local","local":true}

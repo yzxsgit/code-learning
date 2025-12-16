@@ -1,0 +1,1 @@
+{"name":"Local: A","url":"d:\\code\\codeforce\\1062(div4)\\A. Square.cpp","tests":[{"id":1761721036714,"input":"7\n1 2 3 4\n1 1 1 1\n2 2 2 2\n1 2 1 2\n1 1 5 5\n5 5 5 5\n4 10 5 9\n","output":"NO\nYES\nYES\nNO\nNO\nYES\nNO\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\code\\codeforce\\1062(div4)\\A. Square.cpp","group":"local","local":true}

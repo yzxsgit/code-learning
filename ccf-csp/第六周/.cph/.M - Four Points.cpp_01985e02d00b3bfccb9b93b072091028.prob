@@ -1,0 +1,1 @@
+{"name":"Local: M - Four Points","url":"d:\\code\\ccf-csp\\第六周\\M - Four Points.cpp","tests":[{"id":1760694498475,"input":"-1 -1\n-1 2\n3 2\n","output":"3 -1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\code\\ccf-csp\\第六周\\M - Four Points.cpp","group":"local","local":true}

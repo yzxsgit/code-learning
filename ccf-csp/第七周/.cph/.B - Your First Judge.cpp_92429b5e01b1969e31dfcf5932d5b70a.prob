@@ -1,0 +1,1 @@
+{"name":"Local: B - Your First Judge","url":"d:\\code\\ccf-csp\\第七周\\B - Your First Judge.cpp","tests":[{"id":1761266693091,"input":"Hello,World!\n","output":"AC"},{"id":1761266728034,"input":"Hello,world!\n","output":"WA"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\code\\ccf-csp\\第七周\\B - Your First Judge.cpp","group":"local","local":true}

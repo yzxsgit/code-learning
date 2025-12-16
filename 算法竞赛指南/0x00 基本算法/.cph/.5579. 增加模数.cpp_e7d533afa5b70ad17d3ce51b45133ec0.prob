@@ -1,0 +1,1 @@
+{"name":"Local: 5579","url":"d:\\code\\算法竞赛指南\\0x00 基本算法\\5579. 增加模数.cpp","tests":[{"id":1760359536739,"input":"3\n16\n4\n2 3\n3 4\n4 5\n5 6\n36123\n1\n2374859 3029382\n17\n1\n3 18132","output":"2\n13195\n13"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\code\\算法竞赛指南\\0x00 基本算法\\5579. 增加模数.cpp","group":"local","local":true}

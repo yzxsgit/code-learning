@@ -1,0 +1,1 @@
+{"name":"Local: 827","url":"d:\\新建文件夹\\暑假练习\\算法基础课\\数据结构\\题目\\827. 双链表.cpp","tests":[{"id":1755316673202,"input":"10\nR 7\nD 1\nL 3\nIL 2 10\nD 3\nIL 2 7\nL 8\nR 9\nIL 4 7\nIR 2 2","output":"8 7 7 3 2 9\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\新建文件夹\\暑假练习\\算法基础课\\数据结构\\题目\\827. 双链表.cpp","group":"local","local":true}

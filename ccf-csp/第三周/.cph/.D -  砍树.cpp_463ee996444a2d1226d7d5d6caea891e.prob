@@ -1,0 +1,1 @@
+{"name":"Local: D -  砍树","url":"d:\\新建文件夹\\code\\ccf-csp\\第三周\\D -  砍树.cpp","tests":[{"id":1759473786117,"input":"4 7\n20 15 10 17","output":"15"},{"id":1759473795271,"input":"5 20\n4 42 40 26 46","output":"36"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\新建文件夹\\code\\ccf-csp\\第三周\\D -  砍树.cpp","group":"local","local":true}

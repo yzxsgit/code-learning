@@ -1,0 +1,1 @@
+{"name":"Local: 5","url":"d:\\code\\暑假练习\\算法基础课\\基础算法\\模板\\5. 多重背包问题 II.cpp","tests":[{"id":1759217757092,"input":"4 5\n1 2 3\n2 4 1\n3 4 3\n4 5 2","output":"10"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\code\\暑假练习\\算法基础课\\基础算法\\模板\\5. 多重背包问题 II.cpp","group":"local","local":true}

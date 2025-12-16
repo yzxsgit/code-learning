@@ -1,0 +1,1 @@
+{"name":"Local: 找回x","url":"d:\\code\\杭电比赛\\2025杭电多校-“钉耙编程”中国大学生算法设计春季训练营\\找回x.cpp","tests":[{"id":1761012554374,"input":"2\n3\n4 1 6\n9 2 1\n9 14 11\n2\n1 1\n2 2\n-100 -100","output":"2\n-102"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\code\\杭电比赛\\2025杭电多校-“钉耙编程”中国大学生算法设计春季训练营\\找回x.cpp","group":"local","local":true}

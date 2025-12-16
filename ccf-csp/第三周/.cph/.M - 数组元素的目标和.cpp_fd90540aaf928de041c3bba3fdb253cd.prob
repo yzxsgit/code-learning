@@ -1,0 +1,1 @@
+{"name":"Local: M - 数组元素的目标和","url":"d:\\新建文件夹\\code\\ccf-csp\\第三周\\M - 数组元素的目标和.cpp","tests":[{"id":1759567115005,"input":"4 5 6\n1 2 4 7\n3 4 6 8 9","output":"1 1"},{"id":1759567164856,"input":"3 3 4\n1 2 4\n1 2 4","output":"1 1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\新建文件夹\\code\\ccf-csp\\第三周\\M - 数组元素的目标和.cpp","group":"local","local":true}

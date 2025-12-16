@@ -1,0 +1,1 @@
+{"name":"Local: P - Many Balls","url":"d:\\code\\ccf-csp\\第七周\\P - Many Balls.cpp","tests":[{"id":1761297574867,"input":"5\n","output":"AABA\n"},{"id":1761297580726,"input":"14","output":"BBABBAAAB\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\code\\ccf-csp\\第七周\\P - Many Balls.cpp","group":"local","local":true}

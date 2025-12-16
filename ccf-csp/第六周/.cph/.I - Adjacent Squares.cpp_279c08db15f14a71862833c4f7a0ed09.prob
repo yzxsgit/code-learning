@@ -1,0 +1,1 @@
+{"name":"Local: I - Adjacent Squares","url":"d:\\code\\ccf-csp\\第六周\\I - Adjacent Squares.cpp","tests":[{"id":1760748208772,"input":"3 4\n2 2\n","output":"4"},{"id":1760748215094,"input":"3 4\n1 3\n","output":"3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\code\\ccf-csp\\第六周\\I - Adjacent Squares.cpp","group":"local","local":true}

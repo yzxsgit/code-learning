@@ -1,0 +1,1 @@
+{"name":"Local: 1069","url":"d:\\新建文件夹\\code\\算法提高课\\动态规划\\区间DP\\1069. 凸多边形的划分.cpp","tests":[{"id":1763984871853,"input":"5\n121 122 123 245 231","output":"12214884\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\新建文件夹\\code\\算法提高课\\动态规划\\区间DP\\1069. 凸多边形的划分.cpp","group":"local","local":true}

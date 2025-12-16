@@ -1,0 +1,1 @@
+{"name":"Local: 846","url":"d:\\新建文件夹\\暑假练习\\算法基础课\\搜索与图论\\题目\\846. 树的重心.cpp","tests":[{"id":1756861597687,"input":"9\n1 2\n1 7\n1 4\n2 8\n2 5\n4 3\n3 9\n4 6","output":"4"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\新建文件夹\\暑假练习\\算法基础课\\搜索与图论\\题目\\846. 树的重心.cpp","group":"local","local":true}

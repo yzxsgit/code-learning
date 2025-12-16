@@ -1,0 +1,1 @@
+{"name":"Local: 869","url":"d:\\code\\暑假练习\\算法基础课\\数学知识\\题目\\869. 试除法求约数.cpp","tests":[{"id":1757899079162,"input":"2\n6\n8","output":"1 2 3 6 \n1 2 4 8 "}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\code\\暑假练习\\算法基础课\\数学知识\\题目\\869. 试除法求约数.cpp","group":"local","local":true}

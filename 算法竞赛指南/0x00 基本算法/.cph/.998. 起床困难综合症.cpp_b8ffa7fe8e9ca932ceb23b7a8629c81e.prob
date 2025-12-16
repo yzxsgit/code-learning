@@ -1,0 +1,1 @@
+{"name":"Local: 998","url":"d:\\code\\算法竞赛指南\\0x00 基本算法\\998. 起床困难综合症.cpp","tests":[{"id":1760401528687,"input":"3 10\nAND 5\nOR 6\nXOR 7","output":"1"},{"id":1760406301667,"input":"","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\code\\算法竞赛指南\\0x00 基本算法\\998. 起床困难综合症.cpp","group":"local","local":true}

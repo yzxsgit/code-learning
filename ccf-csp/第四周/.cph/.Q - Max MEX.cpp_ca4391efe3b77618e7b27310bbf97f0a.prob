@@ -1,0 +1,1 @@
+{"name":"Local: Q - Max MEX","url":"d:\\新建文件夹\\code\\ccf-csp\\第四周\\Q - Max MEX.cpp","tests":[{"id":1759732133034,"input":"7 3\n2 0 2 3 2 1 9\n","output":"3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\新建文件夹\\code\\ccf-csp\\第四周\\Q - Max MEX.cpp","group":"local","local":true}

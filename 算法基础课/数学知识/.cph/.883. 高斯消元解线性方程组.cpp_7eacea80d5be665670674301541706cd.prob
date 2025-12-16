@@ -1,0 +1,1 @@
+{"name":"Local: 883","url":"d:\\code\\暑假练习\\算法基础课\\数学知识\\883. 高斯消元解线性方程组.cpp","tests":[{"id":1758634909909,"input":"3\n1.00 2.00 -1.00 -6.00\n2.00 1.00 -3.00 -9.00\n-1.00 -1.00 2.00 7.00","output":"1.00\n-2.00\n3.00"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\code\\暑假练习\\算法基础课\\数学知识\\883. 高斯消元解线性方程组.cpp","group":"local","local":true}

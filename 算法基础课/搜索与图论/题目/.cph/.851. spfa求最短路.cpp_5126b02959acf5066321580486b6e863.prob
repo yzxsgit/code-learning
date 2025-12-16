@@ -1,0 +1,1 @@
+{"name":"Local: 851","url":"d:\\新建文件夹\\暑假练习\\算法基础课\\搜索与图论\\题目\\851. spfa求最短路.cpp","tests":[{"id":1757057176609,"input":"3 3\n1 2 5\n2 3 -3\n1 3 4","output":"2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\新建文件夹\\暑假练习\\算法基础课\\搜索与图论\\题目\\851. spfa求最短路.cpp","group":"local","local":true}
