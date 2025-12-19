@@ -1,12 +1,31 @@
 #include <stdio.h>
+#include <string.h>
 
-double a[10] = {1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.6, 1.7, 1.8, 1.9};
+void Squeeze(char s[], char c)
+{
+    char res[100];
+    int n = strlen(s), idx = 0;
+    for (int i = 0; i < n; i++)
+        if (s[i] != c)
+            res[idx++] = s[i];
 
+    for (int i = 0; i < idx; i++)
+        s[i] = res[i];
+    for (int i = idx; i < n; i++)
+        s[i] = 0;
+
+    return;
+}
 int main()
 {
-    double sum;
-    for (int i = 0; i < 10; i++)
-        sum += a[i];
-    printf("The average of array is %f\n", sum / 10);
+    char str[100];
+    printf("Input a string:\n");
+    gets(str);
+    char a;
+    printf("Input a character:\n");
+    a = getchar();
+    Squeeze(str, a);
+    printf("Results:%s\n", str);
+
     return 0;
 }
