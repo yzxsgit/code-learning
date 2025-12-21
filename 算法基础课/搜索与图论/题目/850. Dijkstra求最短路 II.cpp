@@ -39,7 +39,7 @@ int Dijkstra()
             if (dist[j] > dist[ver] + w[i])
             {
                 dist[j] = dist[ver] + w[i];
-                heap.emplace(hist[j], j);
+                heap.emplace(dist[j], j);
             }
         }
     }

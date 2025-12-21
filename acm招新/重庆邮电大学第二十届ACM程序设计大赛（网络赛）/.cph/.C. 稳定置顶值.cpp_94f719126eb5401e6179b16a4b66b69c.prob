@@ -1,0 +1,1 @@
+{"name":"Local: C","url":"d:\\新建文件夹\\code\\code-learning\\acm招新\\重庆邮电大学第二十届ACM程序设计大赛（网络赛）\\C. 稳定置顶值.cpp","tests":[{"id":1766196915096,"input":"8\n+ 5\n+ 1\n?\n+ 3\n?\n+ 4\n?\n?","output":"1\n3\n3\n3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\新建文件夹\\code\\code-learning\\acm招新\\重庆邮电大学第二十届ACM程序设计大赛（网络赛）\\C. 稳定置顶值.cpp","group":"local","local":true}
