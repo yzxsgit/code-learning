@@ -1,0 +1,1 @@
+{"name":"Local: 167","url":"d:\\新建文件夹\\code\\code-learning\\算法提高课\\搜索\\DFS\\DFS之剪枝与优化\\167. 木棒.cpp","tests":[{"id":1766503509398,"input":"9\n5 2 1 5 2 1 5 2 1\n4\n1 2 3 4\n0","output":"6\n5"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\新建文件夹\\code\\code-learning\\算法提高课\\搜索\\DFS\\DFS之剪枝与优化\\167. 木棒.cpp","group":"local","local":true}
