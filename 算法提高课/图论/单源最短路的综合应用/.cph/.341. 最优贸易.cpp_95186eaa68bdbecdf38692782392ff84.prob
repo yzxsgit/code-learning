@@ -1,0 +1,1 @@
+{"name":"Local: 341","url":"d:\\新建文件夹\\code\\code-learning\\算法提高课\\图论\\单源最短路的综合应用\\341. 最优贸易.cpp","tests":[{"id":1768049280993,"input":"5 5\n4 3 5 6 1\n1 2 1\n1 4 1\n2 3 2\n3 5 1\n4 5 2","output":"5"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\新建文件夹\\code\\code-learning\\算法提高课\\图论\\单源最短路的综合应用\\341. 最优贸易.cpp","group":"local","local":true}
