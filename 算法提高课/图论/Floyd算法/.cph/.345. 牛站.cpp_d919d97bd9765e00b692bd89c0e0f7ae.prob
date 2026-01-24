@@ -1,0 +1,1 @@
+{"name":"Local: 345","url":"d:\\code learning\\code-learning\\算法提高课\\图论\\Floyd算法\\345. 牛站.cpp","tests":[{"id":1769261410616,"input":"2 6 6 4\n11 4 6\n4 4 8\n8 4 9\n6 6 8\n2 6 9\n3 8 9","output":"10"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\code learning\\code-learning\\算法提高课\\图论\\Floyd算法\\345. 牛站.cpp","group":"local","local":true}
