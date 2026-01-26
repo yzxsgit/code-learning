@@ -1,0 +1,1 @@
+{"name":"Local: 1140","url":"e:\\code\\code-learning\\算法提高课\\图论\\最小生成树\\1140. 最短网络.cpp","tests":[{"id":1769414968185,"input":"4\n0  4  9  21\n4  0  8  17\n9  8  0  16\n21 17 16  0","output":"28"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\code\\code-learning\\算法提高课\\图论\\最小生成树\\1140. 最短网络.cpp","group":"local","local":true}
