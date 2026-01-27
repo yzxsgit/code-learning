@@ -1,0 +1,1 @@
+{"name":"Local: 1146","url":"e:\\code\\code-learning\\算法提高课\\图论\\最小生成树的扩展应用\\1146. 新的开始.cpp","tests":[{"id":1769494908518,"input":"4\n5\n4\n4\n3\n0 2 2 2\n2 0 3 3\n2 3 0 4\n2 3 4 0","output":"9"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\code\\code-learning\\算法提高课\\图论\\最小生成树的扩展应用\\1146. 新的开始.cpp","group":"local","local":true}

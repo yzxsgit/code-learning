@@ -5,7 +5,7 @@ using namespace std;
 
 const int N = 2e5 + 10;
 
-int a[N], b[N];
+long long a[N], b[N];
 int n;
 
 void solve()
