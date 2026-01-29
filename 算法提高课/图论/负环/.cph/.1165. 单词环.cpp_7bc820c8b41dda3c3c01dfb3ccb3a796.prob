@@ -1,0 +1,1 @@
+{"name":"Local: 1165","url":"e:\\code\\code-learning\\算法提高课\\图论\\负环\\1165. 单词环.cpp","tests":[{"id":1769667308630,"input":"3\nintercommunicational\nalkylbenzenesulfonate\ntetraiodophenolphthalein\n0\n","output":"21.6666\r\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\code\\code-learning\\算法提高课\\图论\\负环\\1165. 单词环.cpp","group":"local","local":true}
