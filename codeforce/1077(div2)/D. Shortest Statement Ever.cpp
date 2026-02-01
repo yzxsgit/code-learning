@@ -1,32 +1,44 @@
 #include <iostream>
+#include <vector>
 
-using namespace std;
+using std::abs;
+using std::cin;
+using std::cout;
+typedef long long ll;
+    
+ll x, y;
+ll ansp, ansq;
+void check(ll &min, ll p, ll q)
+{
+    if (p & q)
+        return;
+    else if (abs(x - p) + abs(y - q) < min)
+    {
+        min = abs(x - p) + abs(y - q);
+        ansp = p;
+        ansq = q;
+    }
+}
 
-long long p, q;
 void solve()
 {
-    long long a, b;
-    cin >> a >> b;
-    int n = 1e6;
-    if (!a && !b)
+    ll min = 1e18;
+    cin >> x >> y;
+    check(min, x, y);
+    if (min == 0)
     {
-        p = q = 0;
         return;
     }
-    for (int i = 1; i <= n; i++)
+
+    for (int i = 29; i >= 0; i--)
     {
-        p = a, q = abs(b - i);
-        if (!(p & q))
-            return;
-        p = a, q = b + i;
-        if (!(p & q))
-            return;
-        p = abs(a - i), q = b;
-        if (!(p & q))
-            return;
-        p = a + i, q = b;
-        if (!(p & q))
-            return;
+        if ((x & y) >> i & 1)
+        {
+            check(min, (x >> i << i) + (1LL << i), y);
+            check(min, x, (y >> i << i) + (1LL << i));
+            check(min, x >> i << i, (y >> i << i) - 1);
+            check(min, (x >> i << i) - 1, y >> i << i);
+        }
     }
 }
 
@@ -34,9 +46,12 @@ int main()
 {
     int T;
     cin >> T;
+
     while (T--)
     {
         solve();
-        cout << p << " " << q << "\n";
+        cout << ansp << " " << ansq << '\n';
     }
+
+    return 0;
 }
