@@ -7,7 +7,7 @@ using namespace std;
 using PII = pair<int, int>;
 const int N = 5e4 + 10;
 
-vector<vector<PII>> g(N);
+vector<PII> g[N];
 vector<int> dist(N, -1e9);
 vector<bool> st(N);
 
