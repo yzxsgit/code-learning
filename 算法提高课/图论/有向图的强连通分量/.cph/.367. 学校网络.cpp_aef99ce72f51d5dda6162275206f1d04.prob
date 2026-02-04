@@ -1,0 +1,1 @@
+{"name":"Local: 367","url":"e:\\code\\code-learning\\算法提高课\\图论\\有向图的强连通分量\\367. 学校网络.cpp","tests":[{"id":1770201060654,"input":"5\n2 4 3 0\n4 5 0\n0\n0\n1 0","output":"1\n2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\code\\code-learning\\算法提高课\\图论\\有向图的强连通分量\\367. 学校网络.cpp","group":"local","local":true}
