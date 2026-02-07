@@ -1,0 +1,1 @@
+{"name":"Local: 376","url":"e:\\code\\code-learning\\算法提高课\\图论\\二分图\\376. 机器任务.cpp","tests":[{"id":1770380649234,"input":"5 5 10\n0 1 1\n1 1 2\n2 1 3\n3 1 4\n4 2 1\n5 2 2\n6 2 3\n7 2 4\n8 3 3\n9 4 3\n0","output":"3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\code\\code-learning\\算法提高课\\图论\\二分图\\376. 机器任务.cpp","group":"local","local":true}

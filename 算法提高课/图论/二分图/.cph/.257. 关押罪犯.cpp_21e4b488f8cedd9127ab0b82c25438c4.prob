@@ -1,0 +1,1 @@
+{"name":"Local: 257","url":"e:\\code\\code-learning\\算法提高课\\图论\\二分图\\257. 关押罪犯.cpp","tests":[{"id":1770286653006,"input":"4 6\n1 4 2534\n2 3 3512\n1 2 28351\n1 3 6618\n2 4 1805\n3 4 12884","output":"3512"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\code\\code-learning\\算法提高课\\图论\\二分图\\257. 关押罪犯.cpp","group":"local","local":true}
