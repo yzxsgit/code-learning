@@ -1,0 +1,1 @@
+{"name":"Local: A","url":"e:\\code\\code-learning\\codeforce\\1078(div2)\\A. Lawn Mower.cpp","tests":[{"id":1770541713508,"input":"5\n9 3\n13 4\n15 14\n20 1\n1000 42\n","output":"6\n10\n14\n0\n977\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\code\\code-learning\\codeforce\\1078(div2)\\A. Lawn Mower.cpp","group":"local","local":true}
