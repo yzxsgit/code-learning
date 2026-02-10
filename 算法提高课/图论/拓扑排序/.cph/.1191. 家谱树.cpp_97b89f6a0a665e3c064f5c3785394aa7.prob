@@ -1,0 +1,1 @@
+{"name":"Local: 1191","url":"e:\\code\\code-learning\\算法提高课\\图论\\拓扑排序\\1191. 家谱树.cpp","tests":[{"id":1770692705161,"input":"5\n0\n4 5 1 0\n1 0\n5 3 0\n3 0","output":"2 4 5 3 1\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\code\\code-learning\\算法提高课\\图论\\拓扑排序\\1191. 家谱树.cpp","group":"local","local":true}
