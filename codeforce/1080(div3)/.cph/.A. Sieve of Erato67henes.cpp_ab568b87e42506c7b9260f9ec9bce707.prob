@@ -1,0 +1,1 @@
+{"name":"Local: A","url":"e:\\code\\code-learning\\codeforce\\1080(div3)\\A. Sieve of Erato67henes.cpp","tests":[{"id":1771166877230,"input":"2\n5\n1 7 6 7 67\n5\n1 3 5 7 8\n","output":"YES\nNO\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\code\\code-learning\\codeforce\\1080(div3)\\A. Sieve of Erato67henes.cpp","group":"local","local":true}
