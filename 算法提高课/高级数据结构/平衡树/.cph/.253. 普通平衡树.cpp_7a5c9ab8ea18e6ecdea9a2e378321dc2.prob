@@ -1,0 +1,1 @@
+{"name":"Local: 253","url":"e:\\code\\code-learning\\算法提高课\\高级数据结构\\平衡树\\253. 普通平衡树.cpp","tests":[{"id":1771314503095,"input":"8\n1 10\n1 20\n1 30\n3 20\n4 2\n2 10\n5 25\n6 -1","output":"2\n20\n20\n20"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\code\\code-learning\\算法提高课\\高级数据结构\\平衡树\\253. 普通平衡树.cpp","group":"local","local":true}
