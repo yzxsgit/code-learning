@@ -1,0 +1,1 @@
+{"name":"Local: 1282","url":"e:\\code\\code-learning\\算法提高课\\高级数据结构\\ac自动机\\1282. 搜索关键词.cpp","tests":[{"id":1771409178387,"input":"1\n5\nshe\nhe\nsay\nshr\nher\nyasherhs","output":"3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\code\\code-learning\\算法提高课\\高级数据结构\\ac自动机\\1282. 搜索关键词.cpp","group":"local","local":true}
