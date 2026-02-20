@@ -1,0 +1,1 @@
+{"name":"Local: 220","url":"e:\\code\\code-learning\\算法提高课\\数学知识\\欧拉函数\\220. 最大公约数.cpp","tests":[{"id":1771566440305,"input":"4","output":"4"},{"id":1771566685889,"input":"1331","output":"486859\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\code\\code-learning\\算法提高课\\数学知识\\欧拉函数\\220. 最大公约数.cpp","group":"local","local":true}
