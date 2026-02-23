@@ -1,0 +1,602 @@
+A. String Rotation Game
+time limit per test1 second
+memory limit per test256 megabytes
+Define a block in a string as a contiguous substring of characters of the same type that cannot be extended either to the left or the right. For example, in the string aabcccdaa, there are five blocks:
+
+aa (1
+-st to 2
+-nd characters)
+b (3
+-rd character)
+ccc (4
+-th to 6
+-th characters)
+d (7
+-th character)
+aa (8
+-th to 9
+-th characters).
+You are playing a game where you are given a string s
+ of length n
+. You can cyclically rotate∗
+ the string however you want. Your score is then calculated as the number of blocks in the final string. Please find the maximum score possible.
+
+∗
+Formally, choose an index 1≤i≤n
+, and replace the string s1s2…sn
+ with the string si+1si+2…sns1s2…si
+. For example, the string abcde can be rotated to string deabc by choosing i=3
+.
+
+Input
+Each test contains multiple test cases. The first line contains the number of test cases t
+ (1≤t≤500
+). The description of the test cases follows.
+
+The first line of each test case contains a single integer n
+ (1≤n≤100
+).
+
+The second line of each test case contains the string s
+ of length n
+.
+
+Strings s
+ consist of lowercase Latin characters only.
+
+Output
+For each testcase, output a single integer denoting the maximum score you can achieve.
+
+Example
+InputCopy
+4
+4
+abcd
+4
+abbc
+4
+abba
+6
+abbccc
+OutputCopy
+4
+4
+3
+4
+Note
+In the first test case, score of the original string abcd is 4
+. It can be shown that a score greater than 4
+ cannot be achieved.
+
+In the second test case, cyclically rotating the string by 2
+ positions will give us string bcab. Score of this string is 4
+. It can be shown that a score greater than 4
+ cannot be achieved.
+
+
+B. Flipping Binary String
+time limit per test1.5 seconds
+memory limit per test256 megabytes
+You are given a binary string s
+ of length n
+. You can perform the following operation on the string:
+
+Choose an index i
+, and flip the bit present at all other indices except for the index i
+. In other words, choose an integer i
+ (1≤i≤n
+), and for all j
+ such that 1≤j≤n
+ and j≠i
+, if sj=0
+, then set sj:=1
+, otherwise set sj:=0
+.
+You can perform the operation any number of times, but each index can be chosen by at most one operation.
+
+Your task is to make all bits present in the string s
+ equal 0
+, or report that it is impossible to do so. You don't have to minimize the number of operations.
+
+Input
+Each test contains multiple test cases. The first line contains the number of test cases t
+ (1≤t≤104
+). The description of the test cases follows.
+
+The first line of each test case contains a single integer n
+ (1≤n≤2⋅105
+).
+
+The second line of each test case contains the binary string s
+ of length n
+.
+
+It is guaranteed that the sum of n
+ over all test cases does not exceed 2⋅105
+.
+
+Output
+For each test case, output −1
+ if it is impossible to transform all bits to 0
+. Otherwise, output two lines in the following format:
+
+In the first line, print the number of operations x
+ (0≤x≤n
+).
+In the second line of each test case, print x
+ numbers – the indices you select in each operation in order. You should guarantee that each index is chosen at most once.
+If there are multiple possible solutions, you may output any.
+
+Example
+InputCopy
+4
+3
+101
+3
+100
+4
+0000
+4
+1010
+OutputCopy
+1
+2 
+-1
+0
+2
+1 3 
+Note
+In the first test case, performing the operation on index 2
+ means flipping bits present at index 1
+ and 3
+. So the new string formed will be 000
+.
+
+In the second test case, it can be shown that we cannot make string a
+ equal to 000
+ using the described operations.
+
+
+C. All-in-one Gun
+time limit per test2 seconds
+memory limit per test256 megabytes
+You are developing a new shooter game, but since there are a lot of shooter games out there, you decide to have something unique in your game.
+
+You have an all-in-one gun that shoots bullets in a fixed order. There are n
+ bullets in the magazine, the i
+-th of which deals ai
+ damage. The enemy starts with h
+ health and dies when its health becomes ≤0
+.
+
+The gun shoots one bullet per second. After firing all n
+ bullets, it must reload, which takes k
+ seconds. Reloading always restores the same sequence of bullets [a1,a2,…,an]
+. You cannot reload early; you must empty the magazine first. At the start, the magazine is already full.
+
+Before the fight begins, you may perform at most one swap: pick any indices 1≤i<j≤n
+ and exchange ai
+ with aj
+.
+
+Your task is to find the minimum number of seconds needed to kill the enemy, taking into account this optional single swap.
+
+Input
+Each test contains multiple test cases. The first line contains the number of test cases t
+ (1≤t≤104
+). The description of the test cases follows.
+
+The first line of each testcase contains three integer n
+, h
+ and k
+ (2≤n≤2⋅105
+, 1≤h,k≤109
+) — the size of magazine, health of your enemy and time required to reload the magazine.
+
+The second line of each testcase contains n
+ integers a1,a2,…,an
+ (1≤ai≤109
+).
+
+It is guaranteed that the sum of n
+ does not exceed 2⋅105
+ over all test cases.
+
+Output
+For each testcase, output a single integer denoting the minimum time required to kill the enemy.
+
+Example
+InputCopy
+6
+5 10 1
+4 2 3 5 3
+5 10 1
+4 2 3 7 3
+3 10 2
+1 2 3
+2 5 3
+2 1
+3 18 5
+1 2 3
+4 10 10
+1 1 2 2
+OutputCopy
+3
+2
+7
+6
+19
+17
+Note
+In the first test case, you swap the bullets present at index 2
+ and 5
+. This makes array a
+ as 4,3,3,5,2
+.
+
+After 3
+ seconds, the health of your enemy will be 10−4−3−3=0
+, hence the enemy dies in 3
+ seconds. It can be shown that achieving time to kill less than 3
+ is not possible.
+
+In the third test case, you swap bullets present at index 1
+ and 3
+. This makes array a
+ as 3,2,1
+.
+
+In 7
+ seconds, you shoot the entire first magazine (3
+ seconds) +
+ reload a new magazine (2
+ seconds) +
+ shoot the first and the second bullet from the new magazine (2
+ seconds).
+
+The health of the enemy will be 10−3−2−1−3−2=−1
+, hence the enemy dies in 7
+ seconds. It can be shown that achieving time to kill less than 7
+ is not possible.
+
+
+D. Cost of Tree
+time limit per test3 seconds
+memory limit per test256 megabytes
+For a tree T
+ with root r
+, where each node u
+ has a value au
+ associated with it, the cost of the tree defined as:
+
+∑u∈T(au⋅d(r,u))
+
+Here, this sum is taken over all nodes u
+ in the tree T
+, and d(r,u)
+ denotes the number of edges on the shortest path from node r
+ to node u
+ on a tree.
+
+You are given a tree consisting of n
+ nodes, rooted at node 1
+. Each node i
+ has a value ai
+ assigned to it. For each r
+ from 1
+ to n
+, please solve the following problem independently:
+
+Consider the subtree of node r
+ with respect to node 1
+. Formally, the subtree of node r
+ is the tree consisting of all nodes u
+ such that the shortest path from 1
+ to u
+ contains r
+.
+
+Find the maximum cost of the subtree after performing at most one operation of the following type on the subtree:
+
+Choose any node u
+ (u≠r
+). Remove the edge from u
+ to the parent of node u
+∗
+. Then, add an edge from u
+ to any node v
+ that is still reachable from r
+. It can be shown that after this operation, the graph remains a tree.
+As an example, below shows an example of an operation with r=1
+,u=5
+, and v=4
+.
+
+∗
+Formally, remove the edge from u
+ to p
+, where p
+ is the unique node satisfying d(u,p)=1
+ and d(u,r)=d(p,r)+1
+
+Input
+Each test contains multiple test cases. The first line contains the number of test cases t
+ (1≤t≤104
+). The description of the test cases follows.
+
+The first line of each testcase contains a single integer n
+ (1≤n≤2⋅105
+) — the count of nodes in the tree.
+
+The second line of each testcase contains n
+ integers a1,a2,…,an
+ (1≤ai≤2⋅105
+).
+
+Then n−1
+ lines follow, the i
+-th line containing two integers u
+ and v
+ (1≤u,v≤n
+) — the two nodes that the i
+-th edge connects.
+
+It is guaranteed that the given edges form a tree.
+
+It is guaranteed that the sum of n
+ does not exceed 2⋅105
+ over all test cases.
+
+Output
+For each test case, print n
+ numbers – the answers for r=1,2,…,n
+.
+
+Example
+InputCopy
+3
+5
+1 3 2 1 2
+1 2
+2 3
+3 4
+3 5
+7
+1 2 3 1 3 2 1
+1 2
+2 3
+3 4
+4 5
+4 6
+3 7
+5
+5 4 3 2 1
+1 2
+2 3
+3 4
+4 5
+OutputCopy
+18 10 5 0 0 
+40 28 18 8 0 0 0 
+20 10 4 1 0 
+Note
+In the first test case, for r=1
+, it is optimal to choose u=5
+ and v=4
+. The cost of the tree is then 1⋅0+3⋅1+2⋅2+1⋅3+2⋅4=18
+. It can be shown that a larger cost cannot be obtained over all legal operations.
+
+For r=4
+ for example, there is only 1
+ node in the subtree, so there is no operation possible. The only possible cost of the subtree is 0
+.
+
+
+E. Swap to Rearrange
+time limit per test5 seconds
+memory limit per test512 megabytes
+You are given 2
+ arrays, a
+ and b
+, both of length n
+. You can perform the following operation:
+
+Choose an index i
+ (1≤i≤n
+) and swap ai
+ with bi
+.
+You can perform the operation any number of times (possibly zero), but each index can be chosen by at most one operation. Your task is to make a
+ a rearrangement of b
+ after all operations, or state that it is impossible. You do not have to minimize the number of operations.
+
+Input
+Each test contains multiple test cases. The first line contains the number of test cases t
+ (1≤t≤104
+). The description of the test cases follows.
+
+The first line of each test case contains a single integer n
+ (1≤n≤106
+).
+
+The second line of each test case contains n
+ integers a1,a2,…,an
+ (1≤ai≤n
+).
+
+The third line of each test case contains n
+ integers b1,b2,…,bn
+ (1≤bi≤n
+).
+
+It is guaranteed that the sum of n
+ over all test cases does not exceed 106
+.
+
+Output
+For each test case, output −1
+ if it is impossible to make a
+ a rearrangement of b
+. Otherwise, output two lines in the following format:
+
+In the first line, print the number of operations s
+ (0≤s≤n
+).
+In the second line of each test case, print s
+ numbers – the indices you select in each operation in order. You should guarantee that each index is chosen at most once.
+If there are multiple possible answers, you many output any.
+
+Example
+InputCopy
+4
+4
+1 1 3 3
+2 2 4 4
+3
+1 2 1
+3 3 1
+3
+1 2 3
+2 3 1
+4
+1 2 2 4
+3 1 4 3
+OutputCopy
+2
+2 4
+-1
+0
+
+2
+3 4
+Note
+In the first test case, the operations performed are swap(a2,b2
+) and swap(a4,b4
+), which will make a=[1,2,3,4]
+ and b=[2,1,4,3]
+. Now it is possible to achieve a
+ by rearranging the elements of b
+.
+
+In the second test case, it can be shown that no matter what operations we do, we cannot make a
+ a rearrangement of b
+.
+
+
+F. Fish Fight
+time limit per test4 seconds
+memory limit per test512 megabytes
+In a pond, n
+ fish are in a line. For each fish i
+, its size is ai
+, and any fish that eats it grows by bi
+.
+
+Alice picks fish x
+, Bob picks fish y
+. They alternate turns, starting with Alice's fish. On each player's turn, let their fish have size p
+. The fish will eat an adjacent fish with size q
+ that satisfies p≥q
+. If more than one such fish exists, it chooses uniformly at random among them. Eating increases its size by the eaten fish's bi
+.
+
+If, at the start of its turn, a fish cannot eat any adjacent fish, it is instead eaten by its neighbours (A fish at an endpoint has one neighbour; a fish in the interior has two). If Alice's fish is eaten (either by Bob's fish or by her neighboring fishes), she immediately loses. Similarly, if Bob's fish is eaten (either by Alice's fish or by his neighboring fishes), he immediately loses.
+
+Given Alice's and Bob's chosen fishes, compute the probability that Alice wins, modulo 109+7
+.
+
+More formally, let M=109+7
+. The answer can be written as an irreducible fraction pq
+ with q≢0(modM)
+. Output pq−1modM
+, the unique integer x
+ with 0≤x<M
+ and xq≡p(modM)
+.
+
+Input
+Each test contains multiple test cases. The first line contains the number of test cases t
+ (1≤t≤500
+). The description of the test cases follows.
+
+The first line of each testcase contains a single integer n
+ (2≤n≤3000
+) — the number of fish in pond.
+
+The second line contains two integers x
+ and y
+ (1≤x,y≤n
+; x≠y
+).
+
+The third line contains n
+ integers a1,a2,…,an
+ (1≤ai≤109
+).
+
+The fourth line contains n
+ integers b1,b2,…,bn
+ (0≤bi≤109
+).
+
+It is guaranteed that the sum of n
+ does not exceed 3000
+ over all test cases.
+
+Output
+For each test case output a single integer which is the probability that Alice will win modulo 109+7
+.
+
+Example
+InputCopy
+6
+2
+1 2
+1 2
+1 1
+2
+1 2
+2 1
+1 1
+3
+2 3
+1 4 4
+0 1 1
+5
+4 2
+2 6 5 5 3
+1 2 1 3 2
+7
+3 5
+1 1 1 1 1 1 1
+0 0 0 0 0 0 1
+10
+8 3
+2 5 9 3 8 4 5 6 2 7
+1 3 5 2 7 3 4 2 2 3
+OutputCopy
+0
+1
+500000004
+750000006
+375000003
+687500005
+Note
+In the first test case, Alice's fish can't eat any of the adjacent fish, hence Alice always loses.
+
+In the second test case, Alice's fish has only one adjacent fish, which is Bob's fish, Since Alice's fish size is greater than or equal to Bob's fish size, Alice always wins.
+
+In the third test case, in the first turn, Alice's fish can eat both the adjacent fish.
+
+Case 1
+: It eats fish 3
+ (Bob's fish). Alice wins.
+
+Case 2
+: It eats fish 1
+. The new size of Alice's fish will be a2+b1=4+0=4
+. This will lead to Bob's fish always eating Alice's fish in the second turn. Alice loses.
+
+Both cases are equally likely, hence the probability of Alice winning is 0.5
+
+In the fourth test case, the probability of Alice winning is 0.75
