@@ -17,7 +17,7 @@ void solve()
     cin >> n;
 
     vector<vector<int>> blogs(n);
-    vector<int> allUsers; 
+    vector<int> allUsers;
     for (int i = 0; i < n; i++)
     {
         int l;
@@ -72,7 +72,7 @@ void solve()
                     break;
                 }
                 if (b_done)
-                    break; 
+                    break;
 
                 if (blogs[i][pi] < blogs[best][pb])
                 {
