@@ -3,6 +3,7 @@
 
 # CPH 配置
 .cph/
+.cph-ng/
 
 # 编译生成的文件
 *.exe
