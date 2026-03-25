@@ -1,65 +1,76 @@
 #include <iostream>
-#include <vector>
-#include <queue>
-#include <stack>
 #include <algorithm>
-#include <cstring>
-#include <map>
-#include <set>
+#include <bitset>
 
 using namespace std;
-using i64 = long long;
-using PII = pair<int,int>;
 
-vector<vector<bool>> row(10, vector<bool>(10, false)), col(10, vector<bool>(10, false)), cude(10, vector<bool>(10, false));
+const int N = 9;
+bitset<10> row[N], col[N], box[N];
+int g[N][N];
+int ans = -1;
 
-vector<vector<int>> g(10, vector<int>(10, 0));
-
-void PUT(int num, int x, int y, bool in)
+inline int get_weight(int i, int j)
 {
-    row[x][num] = in;
-    col[y][num] = in;
-    int tmp = x / 3 * 3 + y / 3;
-    cude[tmp][num] = in;
-    g[x][y] = num;
+    return min({i, j, 8 - i, 8 - j}) + 6;
 }
 
-int sum()
+void PUT(int val, int i, int j, bool state)
 {
-    int ans = 0;
-    for (int i = 1; i <= 9; i++)
-        for (int j = 1; j <= 9; j++)
-        {
-            int tmp = min({i, j, 10 - i, 10 - j}) + 5;
-            ans += tmp * g[i][j];
-        }
-
-    return ans;
+    row[i][val] = state;
+    col[j][val] = state;
+    box[i / 3 * 3 + j / 3][val] = state;
 }
 
-int res = -1;
-PII idx[100];
-void dfs(int u)
+void dfs(int score, int cnt)
 {
-    if (u == 82)
+    if (cnt == 0)
     {
-        res = max(res, sum());
+        ans = max(ans, score);
         return;
     }
-    int x = idx[u].first;
-    int y = idx[u].second;
 
-    if (g[x][y] == 0)
-        for (int i = 1; i <= 9; i++)
+    int min_choices = 11, x = -1, y = -1;
+    bitset<10> best_mask;
+
+    for (int i = 0; i < N; i++)
+    {
+        for (int j = 0; j < N; j++)
         {
-            if (row[x][i] || col[y][i] || cude[x / 3 * 3 + y / 3][i])
-                continue;
-            PUT(i, x, y, true);
-            dfs(u + 1);
-            PUT(0, x, y, false);
+            if (g[i][j] == 0)
+            {
+                bitset<10> mask = row[i] | col[j] | box[i / 3 * 3 + j / 3];
+                int choices = 0;
+                for (int k = 1; k <= 9; k++)
+                    if (!mask[k])
+                        choices++;
+
+                if (choices < min_choices)
+                {
+                    min_choices = choices;
+                    x = i;
+                    y = j;
+                    best_mask = mask;
+                    if (choices == 0)
+                        return; 
+                }
+            }
         }
-    else
-        dfs(u + 1);
+    }
+
+    if (x == -1)
+        return;
+
+    for (int i = 1; i <= 9; i++)
+    {
+        if (!best_mask[i])
+        {
+            g[x][y] = i;
+            PUT(i, x, y, 1);
+            dfs(score + get_weight(x, y) * i, cnt - 1);
+            PUT(i, x, y, 0);
+            g[x][y] = 0;
+        }
+    }
 }
 
 int main()
@@ -67,17 +78,28 @@ int main()
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    int tmp = 1;
-    for (int i = 1; i <= 9; i++)
-        for (int j = 1; j <= 9; j++)
-        {
-            int x;
-            cin >> x;
-            PUT(x, i, j, true);
-            idx[tmp] = {i, j};
-        }
+    int empty_cnt = 0, current_score = 0;
 
-    cout << res << '\n';
+    for (int i = 0; i < N; i++)
+    {
+        for (int j = 0; j < N; j++)
+        {
+            cin >> g[i][j];
+            if (g[i][j] != 0)
+            {
+                PUT(g[i][j], i, j, 1);
+                current_score += g[i][j] * get_weight(i, j);
+            }
+            else
+            {
+                empty_cnt++;
+            }
+        }
+    }
+
+    dfs(current_score, empty_cnt);
+
+    cout << ans << endl;
 
     return 0;
 }
