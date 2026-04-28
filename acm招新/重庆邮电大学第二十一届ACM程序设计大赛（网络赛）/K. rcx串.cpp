@@ -6,7 +6,6 @@
 #include <cstring>
 #include <map>
 #include <set>
-#include <unordered_map>
 
 using namespace std;
 using i64 = long long;
@@ -17,13 +16,10 @@ int main()
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    PII a = {1, 1};
+    string x;
+    cin >> x;
 
-    unordered_multimap< 
-
-    mp[a] = 1;
-
-    cout<<mp[a];
+    string s2 = "rcx"
 
     return 0;
 }
