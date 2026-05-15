@@ -15,9 +15,10 @@ using PII = pair<int, int>;
 
 struct Edge
 {
-    int u, v, val;
+    int u, v;
+    i64 val;
 
-    bool operator<(const Edge &t)
+    bool operator<(const Edge &t) const
     {
         return val < t.val;
     }
@@ -25,22 +26,19 @@ struct Edge
 
 void solve()
 {
-    int n, m, k;
+    int n, m;
+    i64 k;
     cin >> n >> m >> k;
 
     vector<Edge> edge;
 
-    int minn = -1, id = -1;
+    i64 minn = 4e18;
     for (int i = 0; i < m; i++)
     {
         int u, v, val;
         cin >> u >> v >> val;
         edge.push_back({u, v, val});
-        if (id == -1 || minn > abs(val - k) || minn == abs(val - k) && val > edge[id].val)
-        {
-            id = i;
-            minn = abs(val - k);
-        }
+        minn = min(abs(k - val), minn);
     }
 
     sort(edge.begin(), edge.end());
@@ -61,46 +59,39 @@ void solve()
 
     auto kruskal = [&]() -> void
     {
-        int cnt = 1;
-
-        st[id] = true;
-        auto [u, v, val] = edge[id];
-        fa[u] = v;
+        int cnt = 0;
 
         for (int i = 0; i < m && cnt < n - 1; i++)
         {
-            if (!st[i])
+            auto [u, v, val] = edge[i];
+
+            int nu = find(u), nv = find(v);
+
+            if (nu != nv)
             {
-                auto [u, v, val] = edge[i];
-
-                int nu = find(u), nv = find(v);
-
-                if (nu != nv)
-                {
-                    st[i] = true;
-                    nu = nv;
-                    cnt++;
-                }
+                st[i] = true;
+                fa[nu] = nv;
+                cnt++;
             }
         }
     };
     kruskal();
 
-    int res = minn;
+    i64 res = 0;
 
+    bool has_bigger = false;
     for (int i = m - 1; i >= 0; i--)
-        if (st[i] && i != id)
+        if (st[i])
         {
             if (edge[i].val > k)
+            {
                 res += edge[i].val - k;
-            else
-                break;
+                has_bigger = true;
+            }
         }
 
-    // for (int i = 0; i < m; i++)
-    //     if (st[i])
-    //         cout << i << ' ';
-    // cout << '\n';
+    if (!has_bigger)
+        res += minn;
 
     cout << res << '\n';
 }
